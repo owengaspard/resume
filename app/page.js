@@ -138,7 +138,7 @@ export default function Home() {
             <a href='https://www.credly.com/earner/earned/badge/174dcd39-7624-40c0-8abf-3e4775eb260d' target='_blank' rel='noreferrer'>
               <div className='pt-4 grid lg:grid-cols-4 lg:gap-4 hover:underline'>
                 <div className='lg:col-span-1'>
-                  <Image alt='cert' width='100' height='50' src='/aws-ccp.png' />
+                  <Image alt='cert' width='100' height='50' src='./aws-ccp.png' />
                 </div>
                 <div className='lg:col-span-3'>
                   <p className='text-black pt-2.5 text-lg'>Amazon Web Services</p>
