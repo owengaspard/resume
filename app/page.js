@@ -6,7 +6,7 @@ export default function Home() {
       <div className='bg-white w-full col-span-2'>
         <header className='grid 2xl:grid-cols-4'>
           <div className='col-span-3'>
-            <p className='pt-2 text-6xl font-extrabold text-black'>Owen Gaspard</p>
+            <p className='pt-2 text-[min(10vw,60px)] font-extrabold text-black'>Owen Gaspard</p>
             <p className='pt-2 text-2xl font-light'>Systems Administrator,<br/>Full Stack Developer</p>
           </div>
           {/*
@@ -135,7 +135,7 @@ export default function Home() {
             <p className='font-bold text-black pt-8 text-2xl'>Frameworks/Web Tools</p>
             <p className='pt-4 text-lg font-light'>- React.js<br/>- Next.js<br/>- Remix/Hydrogen<br/>- TailwindCSS</p>
             <p className='font-bold text-black pt-8 text-2xl'>Certification</p>
-            <a href='https://www.credly.com/earner/earned/badge/174dcd39-7624-40c0-8abf-3e4775eb260d' target='_blank' rel='noreferrer'>
+            <a href='https://www.credly.com/badges/174dcd39-7624-40c0-8abf-3e4775eb260d/public_url' target='_blank' rel='noreferrer'>
               <div className='pt-4 grid lg:grid-cols-4 lg:gap-4 hover:underline'>
                 <div className='lg:col-span-1'>
                   <Image alt='cert' width='100' height='50' src='./aws-ccp.png' />
