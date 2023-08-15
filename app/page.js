@@ -20,7 +20,7 @@ export default function Home() {
         <div className='grid md:grid-cols-3 gap-24'>
           <div className='md:col-span-2'>
             <p className='pt-8 font-bold text-2xl text-black'>About Me</p>
-            <p className='pt-4 text-lg font-light'>Hey, I&apos;m Owen, a seventeen-year-old systems administrator and full-stack developer based in New Orleans. My skillset encompasses proficiency in industry-leading tools like React and TailwindCSS. I hold an AWS Certified Cloud Practitioner certification and have hands-on experience with cloud solutions, including AWS and Azure, as well as Cloudflare's global CDN and WAF. I excel in managing both on-premises solutions such as ESXi and cloud-based environments.</p>
+            <p className='pt-4 text-lg font-light'>Hey, I&apos;m Owen, a seventeen-year-old systems administrator and full-stack developer based in New Orleans. My skillset encompasses proficiency in industry-leading tools like React and TailwindCSS. I hold an AWS Certified Cloud Practitioner certification and have hands-on experience with cloud solutions, including AWS and Azure, as well as Cloudflare&apos;s global CDN and WAF. I excel in managing both on-premises solutions such as ESXi and cloud-based environments.</p>
             <p className='pt-2 text-lg font-light'>In addition, I am well-versed in administering both Windows and Linux systems, with a strong affinity for Linux across desktop and server setups. I demonstrate expertise in Python for AI and machine learning tasks and Java for robotics applications. My aptitude extends to database administration using SQL, backed by relevant certifications.</p>
             
             <p className='pt-8 font-bold text-2xl text-black'>Experience</p>
@@ -35,9 +35,9 @@ export default function Home() {
               <div className='pl-4 md:pl-16 col-span-3'>
                 <div className='pt-2 text-lg'>
                   <p className='text-black'>Systems Administrator</p>
-                  <p className='font-light'>I build custom solutions for Famcore and manage various technologies, such as Google Workspace. I develop or assist in building the websites for Famcore and its drives, and I build the backends for these sites, such as the contact forms running on AWS Lambda functions. I am also working on other services to drastically speed up operations, and I plan to open source some of these solutions on Famcore’s GitHub page.</p>
+                  <p className='font-light'>I build custom solutions for Famcore and manage various technologies, such as Google Workspace. I develop or assist in building the websites for Famcore and its drives, and I build the backends for these sites, such as the contact forms running on AWS Lambda functions. I am also working on other services to drastically speed up operations, and I plan to open source some of these solutions on Famcore&apos;s GitHub page.</p>
                   <p className='text-black pt-4'>Cloud Engineer</p>
-                  <p className='font-light'>At Famcore, I use my experience in AWS to speed up operations. I migrated the organization’s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.At Famcore, I use my experience in AWS to speed up operations. I migrated the organization’s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.</p>
+                  <p className='font-light'>At Famcore, I use my experience in AWS to speed up operations. I migrated the organization&apos;s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.At Famcore, I use my experience in AWS to speed up operations. I migrated the organization&apos;s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.</p>
                   <p className='text-black pt-4'>Data Analyst</p>
                   <p className='font-light'>I cleaned data pertaining to Famcore Foundation&apos;s donors and volunteers and put them into Amazon DynamoDB. From there, I was able to import the data into Power BI and created charts to allow the organization to easily track metrics.</p>
                 </div>
@@ -54,12 +54,12 @@ export default function Home() {
               </div>
               <div className='pl-4 md:pl-16 col-span-3'>
                 <div className='pt-2 text-lg font-light'>
-                  <p>I engineered a cloud-based file storage server utilizing a selection of Amazon Web Services (AWS). The goal was to establish a scalable and secure file storage solution. Here’s a brief overview of how I used various AWS services:</p>
+                  <p>I engineered a cloud-based file storage server utilizing a selection of Amazon Web Services (AWS). The goal was to establish a scalable and secure file storage solution. Here&apos;s a brief overview of how I used various AWS services:</p>
                   <p className='pt-2'>Amazon EC2: Hosted the server-side application on EC2 instances. This allowed for the creation of a scalable environment that can adapt to changes in demand.</p>
                   <p className='pt-2'>Amazon S3: Chose Amazon S3 to store files, taking advantage of its high durability and availability.</p>
                   <p className='pt-2'>Amazon Route 53: Managed DNS using Route 53, ensuring a reliable and easily accessible server.</p>
                   <p className='pt-2'>AWS IAM: Bridged the EC2 instance to the S3 bucket securely by setting up proper permissions using Identity and Access Management (IAM).</p>
-                  <p className='pt-2'>For the software part, I implemented FileCloud, an enterprise-grade file sharing solution known for secure file sharing, synchronization, and custom branding. FileCloud’s comprehensive features complemented the robust infrastructure provided by AWS.</p>
+                  <p className='pt-2'>For the software part, I implemented FileCloud, an enterprise-grade file sharing solution known for secure file sharing, synchronization, and custom branding. FileCloud&apos;s comprehensive features complemented the robust infrastructure provided by AWS.</p>
                 </div>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <div className='pl-4 md:pl-16 col-span-3'>
                 <div className='pt-2 text-lg font-light'>
-                  <p>I had the wonderful opportunity to develop the website for my school&apos;s FTC Robotics Team. The goal was to create a modern and user-friendly web platform to showcase our team&apos;s activities, achievements, and provide a way for visitors to get in touch. Here’s an overview of the technologies and services I utilized:</p>
+                  <p>I had the wonderful opportunity to develop the website for my school&apos;s FTC Robotics Team. The goal was to create a modern and user-friendly web platform to showcase our team&apos;s activities, achievements, and provide a way for visitors to get in touch. Here&apos;s an overview of the technologies and services I utilized:</p>
                   <p className='pt-2'>ReactJS: Employed React as the primary front-end library to create a dynamic and responsive user interface. React&apos;s component-based architecture allowed for reusable components and a more organized codebase.</p>
                   <p className='pt-2'>TailwindCSS: Integrated TailwindCSS for styling the website. TailwindCSS&apos;s utility-first CSS framework enabled rapid design iterations and a visually appealing user experience.</p>
                   <p className='pt-2'>AWS Lambda & SES: To build an efficient contact form, I used Amazon Web Services (AWS). I utilized AWS Lambda to handle form submissions and AWS Simple Email Service (SES) to send email notifications to the team.</p>
@@ -93,7 +93,7 @@ export default function Home() {
               </div>
               <div className='pl-4 md:pl-16 col-span-3'>
                 <div className='pt-2 text-lg font-light'>
-                  <p>I am excited to share my personal website, which I built as a platform to showcase my portfolio, share my experiences, and connect with professionals and enthusiasts alike. Here’s a brief overview of the technologies and features I utilized:</p>
+                  <p>I am excited to share my personal website, which I built as a platform to showcase my portfolio, share my experiences, and connect with professionals and enthusiasts alike. Here&apos;s a brief overview of the technologies and features I utilized:</p>
                   <p className='pt-2'>ReactJS: Used React as the primary front-end library for building a dynamic and responsive user interface. React&apos;s component-based architecture enabled a clean and modular codebase.</p>
                   <p className='pt-2'>TailwindCSS: Integrated TailwindCSS to style the website. Its utility-first CSS framework allowed for rapid design iterations and ensured a modern and polished user experience.</p>
                   <p className='pt-2'>AWS Lambda & SES: For the contact form, I employed Amazon Web Services (AWS). I used AWS Lambda to process form submissions and AWS Simple Email Service (SES) to send email notifications to my inbox. This allowed for a serverless architecture, which is both efficient and scalable.</p>
