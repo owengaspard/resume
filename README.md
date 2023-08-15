@@ -7,4 +7,4 @@ This is my System Administrator and Full-Stack Developer resume built with Next.
 This project was built with Next.js, so you can run `npm run dev` to run it and `npm run build` to build it for deployment.
 
 ## License
-This project is licensed under the MIT license, meaning you are free to do whatever you want with this as long as you give proper attribution. If you keep your resume open source, you can just put it in the README, no need to put it on the resume itself.
+This project is licensed under the MIT license, meaning you are free to do whatever you want with this as long as you give proper attribution. If you keep your repo open source, you can just put it in the README, no need to put it on the resume itself.
