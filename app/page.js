@@ -133,7 +133,7 @@ export default function Home() {
             <p className='font-bold text-black pt-8 text-2xl'>Languages</p>
             <p className='pt-4 text-lg font-light'>- Java<br/>- Python<br/>- JavaScript<br/>- SQL</p>
             <p className='font-bold text-black pt-8 text-2xl'>Frameworks/Web Tools</p>
-            <p className='pt-4 text-lg font-light'>- React.js<br/>- Next.js<br/>- Remix/Hydrogen<br/>- TailwindCSS</p>
+            <p className='pt-4 text-lg font-light'>- React.js<br/>- Next.js<br/>- Remix/Hydrogen<br/>- Stripe.js<br/>- TailwindCSS</p>
             <p className='font-bold text-black pt-8 text-2xl'>Certification</p>
             <a href='https://www.credly.com/badges/174dcd39-7624-40c0-8abf-3e4775eb260d/public_url' target='_blank' rel='noreferrer'>
               <div className='pt-4 grid lg:grid-cols-4 lg:gap-4 hover:underline'>
