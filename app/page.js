@@ -146,9 +146,11 @@ export default function Home() {
                 </div>
               </div>
             </a>
+            {/*
             <p className='font-bold text-black dark:text-black pt-8 text-2xl'>Education</p>
             <p className='text-black dark:text-black pt-4 text-lg'>Jesuit High School of New Orleans</p>
             <p className='text-lg font-light'>High School Diploma</p>
+            */}
           </div>
         </div>
       </div>
