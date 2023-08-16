@@ -7,7 +7,7 @@ export default function Home() {
         <header className='grid 2xl:grid-cols-4'>
           <div className='col-span-3'>
             <p className='pt-2 text-[min(10vw,60px)] font-extrabold text-black dark:text-gray-300'>Owen Gaspard</p>
-            <p className='pt-2 text-[min(4vw,20px)] font-light'>Systems Administrator,<br/>Full Stack Developer</p>
+            <p className='pt-2 text-[min(4vw,20px)] font-light'>System Administrator,<br/>Full Stack Developer</p>
           </div>
           {/*
           <div className='pt-8 2xl:pt-0'>
