@@ -7,7 +7,7 @@ export default function Home() {
         <header className='grid 2xl:grid-cols-4'>
           <div className='col-span-3'>
             <p className='pt-2 text-[min(10vw,60px)] font-extrabold text-black dark:text-black'>Owen Gaspard</p>
-            <p className='pt-2 text-[min(4vw,20px)] font-light'>Systems Administrator,<br/>Full Stack Developer</p>
+            <p className='pt-2 text-[min(4vw,20px)] font-light'>IT Administrator,<br/>Full Stack Developer</p>
           </div>
           {/*
           <div className='pt-8 2xl:pt-0'>
@@ -34,8 +34,8 @@ export default function Home() {
               </div>
               <div className='pl-4 md:pl-16 col-span-3'>
                 <div className='pt-2 text-lg'>
-                  <p className='text-black dark:text-black'>Systems Administrator</p>
-                  <p className='font-light'>I build custom solutions for Famcore and manage various technologies, such as Google Workspace. I develop or assist in building the websites for Famcore and its drives, and I build the backends for these sites, such as the contact forms running on AWS Lambda functions. I am also working on other services to drastically speed up operations, and I plan to open source some of these solutions on Famcore&apos;s GitHub page.</p>
+                  <p className='text-black dark:text-black'>Information Technology Administrator</p>
+                  <p className='font-light'>I am an accomplished IT administrator and technology solutions developer specializing in enhancing operations and user experiences. With expertise in Google Workspace management, Azure AD integration, and a proven track record in developing impactful AWS-powered solutions, I've been a driving force behind Famcore Foundation's technological progress.<br />Key Competencies:<br />- Google Workspace & Azure AD: Orchestrated a seamless transition from individual email accounts to @famcorefoundation addresses using Google Workspace. Integrated Microsoft Azure AD/Entra ID, establishing Single Sign-On (SSO) across Google Workspace and Microsoft 365. Proficiently managed accounts, security, and access controls.<br />- Innovative Web Development & AWS Solutions: Designed and developed responsive websites tailored to Famcore Foundation's needs. Managed website backends, including implementing AWS Lambda-powered contact forms. Leveraged AWS's power to create solutions that have optimized processes and streamlined operations.<br />- Empowering Custom Solutions: Crafted bespoke solutions that drive Famcore's transformation. Notably, developed a subsidiary's website and an internal portal automating contact management, organizing families, donors, and volunteers to enhance efficiency.<br />- Strategic Technology Management: Demonstrated expertise in Google Workspace, Microsoft 365, Azure AD, and AWS Lambda. Continuously updated skills to propose innovative solutions aligned with Famcore's vision.</p>
                   <p className='text-black dark:text-black pt-4'>Cloud Engineer</p>
                   <p className='font-light'>At Famcore, I use my experience in AWS to speed up operations. I migrated the organization&apos;s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.At Famcore, I use my experience in AWS to speed up operations. I migrated the organization&apos;s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.</p>
                   <p className='text-black dark:text-black pt-4'>Data Analyst</p>
