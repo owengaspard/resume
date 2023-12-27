@@ -27,6 +27,24 @@ export default function Home() {
             <div className='pt-4 grid lg:grid-cols-4'>
               <div className='md:col-span-1'>
                 <div className='pt-2 text-lg font-light'>
+                <p className='font-semibold text-black dark:text-black'>Greater New Orleans STEM Initiative</p>
+                    <a href='https://gnostem.org' target='_blank' rel='noreferrer' className='hover:underline'>gnostem.org</a>
+                    <p>September 2023 - Present</p>
+                  </div>
+              </div>
+              <div className='pl-4 md:pl-16 col-span-3'>
+                <div className='pt-2 text-lg'>
+                  <p className='text-black dark:text-black'>Webmaster</p>
+                  <p className='font-light'>In September 2023, I assumed the role of webmaster at the Greater New Orleans STEM Initiative (GNOSTEM), a pivotal point in my journey with the organization. Entrusted with the responsibility of managing the digital landscape, I dived into the existing WordPress platform with the goal of optimizing and fortifying GNOSTEM&apos;s online presence. Through meticulous efforts, I implemented strategic improvements, including site speed enhancements, security updates, and a comprehensive redesign. This marked the beginning of my dedicated commitment to leveraging technology to support GNOSTEM&apos;s mission of delivering top-tier STEM education to K-12 students and educators. <br/><br/>Some of my work includes:<br/>-Spearheaded a comprehensive overhaul of the organization&apos;s website on the existing WordPress platform, resulting in a visually appealing and user-friendly interface. <br/>- Implemented advanced caching techniques, significantly improving site speed and responsiveness by reducing load times. <br/>- Conducted regular updates to the WordPress platform, ensuring the organization&apos;s web presence is on the cutting edge of technology. <br/>- Enhanced website security measures, implementing protocols to safeguard sensitive information and user data. <br/>- Redesigned the site layout and structure, optimizing content presentation for a more intuitive user experience. <br/>- Collaborated with cross-functional teams, including educators and administrators, to align website content with STEM education initiatives and events.<br/>- Utilized analytical tools to track website traffic, social media metrics, and user engagement, providing valuable insights for strategic decision-making.</p>
+                  <p className='text-black dark:text-black pt-4'>Social Media Manager</p>
+                  <p className='font-light'>At Famcore, I use my experience in AWS to speed up operations. I migrated the organization&apos;s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.At Famcore, I use my experience in AWS to speed up operations. I migrated the organization&apos;s volunteer form to a custom-built solution backed by AWS Lambda. I also migrated some of the spreadsheets to DynamoDB in order to perform data analysis and grouping through Lambda and Power BI. Cost-effectiveness is my top priority at Famcore, especially due to it being a nonprofit.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className='pt-4 grid lg:grid-cols-4'>
+              <div className='md:col-span-1'>
+                <div className='pt-2 text-lg font-light'>
                   <p className='font-semibold text-black dark:text-black'>Famcore Foundation</p>
                     <a href='https://famcorefoundation.com' target='_blank' rel='noreferrer' className='hover:underline'>famcorefoundation.com</a>
                     <p>August 2023 - Present</p>
@@ -42,7 +60,7 @@ export default function Home() {
                   <p className='font-light'>I cleaned data pertaining to Famcore Foundation&apos;s donors and volunteers and put them into Amazon DynamoDB. From there, I was able to import the data into Power BI and created charts to allow the organization to easily track metrics.</p>
                 </div>
                 </div>
-            </div>
+              </div>
 
             <p className='font-bold text-black dark:text-black pt-8 text-2xl'>Projects</p>
             <div className='pt-4 grid lg:grid-cols-4'>
